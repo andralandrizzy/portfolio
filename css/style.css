@@ -1,0 +1,375 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo-img {
+	width: 50px;
+	height: auto;
+}
+
+.brand-logo {
+	margin-top: 0.5rem;
+}
+
+img {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+
+.primary-overlay {
+	background: rgba(82, 80, 88, 0.57);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.main-header {
+	background: url(../images/adult.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	min-width: 1080px;
+	min-height: 800px;
+	color: #fff;
+	position: relative;
+}
+
+.main-header .showcase {
+	padding-top: 20%;
+	position: relative;
+}
+
+.scroll-icon {
+	position: absolute;
+	bottom: -150px;
+	left: 47%;
+	opacity: 0.4;
+}
+
+.icons {
+	font-size: 2em;
+	display: flex;
+	margin-right: 0.5em;
+	width: 60px;
+	height: 60px;
+	padding: 0.5em;
+	justify-content: center;
+	background-color: green;
+	color: rgb(255, 255, 255);
+	border-radius: 50%;
+}
+.btn {
+	border-radius: 30px;
+}
+#service {
+	height: 100%;
+	background-color: #f2f2f2;
+}
+
+.service-card-item,
+#about {
+	padding-top: 4em;
+}
+.content-service {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	/* border: solid 1px red; */
+	margin-top: 3em;
+	margin-bottom: 8em;
+}
+
+.content-service .wrapper {
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	background-color: #ffffff;
+	-webkit-box-shadow: 14px 13px 16px -9px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 14px 13px 16px -9px rgba(0, 0, 0, 0.2);
+	box-shadow: 14px 13px 16px -9px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+.service-info h3 {
+	font-size: 2rem;
+	margin: 0.80rem 0;
+}
+
+#about,
+#portfolio {
+	height: 100vh;
+}
+#about {
+	padding-top: 10%;
+}
+#about .about-image {
+	/* border: solid rgb(9, 233, 110) 2px; */
+	width: 300px;
+	height: 280px;
+}
+
+#about .about-image img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+#about .about-info {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	justify-content: center;
+	/* border: solid red 2px; */
+	padding-left: 1.5em;
+}
+
+#about .top-line {
+	border-top: solid green 3px;
+}
+#about .bt {
+	font-weight: bolder;
+}
+
+#about .skills {
+	margin-top: 8em;
+}
+
+/* Progress Bar */
+.progress-bar {
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding-right: 24px; /* Separate bars from container */
+}
+
+.progress-title-holder {
+	padding-bottom: 7px;
+	position: relative;
+	margin: 5px 0;
+	font-family: Montserrat, sans-serif;
+	font-size: 15px;
+	line-height: 15px;
+	font-weight: 400;
+	color: #2e2e2e;
+}
+
+.progress-title {
+	z-index: 100;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.progress-number-wrapper {
+	width: 100%;
+	z-index: 10;
+}
+
+.progress-number-mark {
+	margin-bottom: 4px;
+	border-radius: 3px;
+	background-color: rgb(32, 36, 32);
+	padding: 0 8px;
+	position: absolute;
+	bottom: 0;
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.progress-number-wrapper,
+.progress-number-mark {
+	font-family: Open Sans, sans-serif;
+	font-size: 11px;
+	line-height: 24px;
+	height: 24px;
+	letter-spacing: 0px;
+	font-weight: 600;
+	font-style: normal;
+	text-transform: none;
+	color: #ffffff;
+}
+
+.down-arrow {
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 3px solid #202127;
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.progress-content-outter {
+	height: 12px;
+	background-color: #dadada;
+}
+
+.progress-content {
+	height: 21px;
+	background-color: rgba(45, 146, 90, 0.918);
+	width: 0%; /* Initial value */
+}
+
+/* Portfolio style */
+
+#portfolio .port-gallery {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(8, 5vw);
+	grid-gap: 25px;
+	margin-bottom: 15%;
+}
+
+#portfolio h3 {
+	margin-top: 1.5em;
+	padding: 2em 0;
+}
+
+#portfolio .gallery__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+#portfolio .gallery__item:nth-child(1) {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+#portfolio .gallery__item:nth-child(2) {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+#portfolio .gallery__item:nth-child(3) {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+#portfolio .gallery__item:nth-child(4) {
+	grid-column-start: 9;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+#portfolio .gallery__item:nth-child(5) {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+#portfolio .gallery__item:nth-child(6) {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 9;
+}
+#portfolio .gallery__item:nth-child(7) {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 6;
+	grid-row-end: 9;
+}
+#portfolio .gallery__item:nth-child(8) {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 5;
+	grid-row-end: 9;
+}
+
+/* Clients style  */
+.slider-wrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding-bottom: 5%;
+	background-color: rgb(89, 133, 92);
+	color: #fff;
+}
+#client {
+	margin-top: 100px;
+}
+
+#client h3 {
+	margin-bottom: 2.5em;
+	font-size: 2.2rem;
+}
+#client h4 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #b4a7a7;
+}
+
+#slider {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#nav-points {
+	list-style: none;
+	margin: 20px auto;
+}
+
+#nav-points li {
+	float: left;
+}
+
+#nav-points li {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: white;
+	opacity: 0.2;
+	margin-right: 10px;
+}
+
+#nav-points li:hover {
+	cursor: pointer;
+}
+
+/* Blogs section style */
+.blog-wrapper {
+	display: flex;
+	width: 100%;
+}
+
+/* .blog-wrapper h3,
+.blog-wrapper h4,
+.blog-wrapper p {
+	margin: 2px;
+	padding: 2px;
+	border: red solid 2px;
+} */
+
+.blog-image {
+	width: 280px;
+	height: 230px;
+}
+
+.blog-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
