@@ -116,10 +116,10 @@
     <section id="about">
       <div class="container">
         <div class="row">
-            <div class="col s6 about-image">
+            <div class="col s4 about-image">
               <img src="//unsplash.it/721/" alt="About Me">
             </div>
-            <div class="col s6 about-info">
+            <div class="col s8 about-info">
               <h4><span class="top-line">Abo</span>ut <span class="bt">Me</span></h4>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dicta animi unde repudiandae eaque. Incidunt, odio sint itaque distinctio laboriosam eos repudiandae nam dolores accusamus quos, error ullam labore esse! <br>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam labore ullam quidem officiis, quam tempore. Quibusdam nostrum earum assumenda dicta, temporibus id vel. Obcaecati eligendi ipsam odit! Molestias, est aspernatur.</p>
@@ -195,9 +195,10 @@
         </div>
       </div>
     </section>
-    <section id="portfolio">
-      <div class="container">
-        <h3 class="center">Portfolio</h3>
+    <section>
+      <div id="portfolio">
+        <div class="container">
+        <h3 class="center title">Portfolio</h3>
         <div class="port-gallery">
           <div class="gallery__item gallery__item--1">
             <img src="//unsplash.it/723" class="gallery__img" alt="Image 1">
@@ -224,6 +225,7 @@
             <img src="//unsplash.it/721" class="gallery__img" alt="Image 8">
           </div>
         </div>
+      </div>
       </div>
       <div id="client">    
         <div class="slider-wrap">
@@ -255,8 +257,10 @@
           </ul>
     </div>
     <!-- Blog section -->
-    <div class="blog-wrapper">
-        <div class="blog-content">
+    <div id="blogs">
+      <h3 class="center bp ">Blog Posts</h3>
+      <div class="blog-wrapper container">
+        <div class="blog-content ">
             <div class="blog-image">
                 <img src="//unsplash.it/631/" alt="Blog Post">
               </div>
@@ -264,7 +268,7 @@
                 <h3 class="blog-title">11 reasons to why you should visit Miami</h3>
                 <h4 class="blog-date">Jun 16, 2019</h4>
                 <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores enim facere sapiente commodi, facilis illum nisi recusandae maiores quo. Officia, rerum! Neque, aspernatur aliquid!</p>
-                <a href="#" class="btn blog-btn white green-text">Read More</a>
+                <a href="#" class="btn btn-large blog-btn white green-text text-darken-3 waves-effect waves-green">Read More</a>
               </div>
         </div>
         <div class="blog-content">
@@ -275,7 +279,7 @@
                 <h3 class="blog-title">11 reasons to why you should visit Miami</h3>
                 <h4 class="blog-date">Jun 16, 2019</h4>
                 <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores enim facere sapiente commodi, facilis illum nisi recusandae maiores quo. Officia, rerum! Neque, aspernatur aliquid!</p>
-                <a href="#" class="btn blog-btn white green-text">Read More</a>
+                <a href="#" class="btn btn-large blog-btn white green-text text-darken-3 waves-effect waves-green">Read More</a>
               </div>
         </div>
         <div class="blog-content">
@@ -286,13 +290,106 @@
                 <h3 class="blog-title">11 reasons to why you should visit Miami</h3>
                 <h4 class="blog-date">Jun 16, 2019</h4>
                 <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores enim facere sapiente commodi, facilis illum nisi recusandae maiores quo. Officia, rerum! Neque, aspernatur aliquid!</p>
-                <a href="#" class="btn blog-btn white green-text">Read More</a>
+                <a href="#" class="btn btn-large blog-btn white green-text text-darken-3 waves-effect waves-green">Read More</a>
               </div>
         </div>
       </div>
+    </div>
+    <div id="contact">
+      <div class="contact-form container">
+          <div class="row">
+              <form class="col s12">
+                <h3 class="center white-text title">Contacts</h3>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input name="first_name" id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" name="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input type="text" name="email" id="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="subject" name="subject" type="text" class="validate">
+                    <label for="subject">Message Subject</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                          <label for="message">Type your message here...</label>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <button class="btn btn-large waves-effect waves-green white-text btn-clr" type="submit" name="action">Send Message
+                    <i class="material-icons right">send</i>
+                  </button>
+              </form>
+            </div>
+      </div>
+    </div>
     </section>
-    
   </main>
+  <footer id="main-footer">
+      <div class="container">
+        <div class="row footer-content">
+          <div class="col l3 s12">
+            <a href="#home" target="_blank" class="brand-logo">
+                <div class="logo-img">
+                  <img src="images/ao-logo.png" alt="logo">
+                </div>
+              </a>
+              <p class="footer-text-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita labore asperiores blanditiis nisi fugiat quam.</p>
+              <p class="footer-text-para"><span class="street_num">555 Fake st</span> <span class="street_name">Collins Ave</span> <br>
+              <span class="city">Miami</span> <span class="state">Florida</span> <span class="country">USA</span></p>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="link-header">Resources</h5>
+            <ul>
+              <li class="footer-link"><a href="#!">Javascripts</a></li>
+              <li class="footer-link"><a href="#!">CSS/HTML</a></li>
+              <li class="footer-link"><a href="#!">Python</a></li>
+              <li class="footer-link"><a href="#!">php</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+              <h5 class="link-header">Quick Links</h5>
+              <ul>
+                <li class="footer-link"><a href="#!">Home</a></li>
+                <li class="footer-link"><a href="#!">Policy</a></li>
+                <li class="footer-link"><a href="#!">About</a></li>
+                <li class="footer-link"><a href="#!">Services</a></li>
+              </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="link-header">Follow Me</h5>
+                <ul>
+                  <li class="logo-link"><a href="#!"><i class="fa fa-twitter"></i></a></li>
+                  <li class="logo-link"><a href="#!"></a><i class="fa fa-instagram"></i></li>
+                  <li class="logo-link"><a href="#!"><i class="fa fa-github"></i></a></li>
+                  <li class="logo-link"><a href="#!"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="footer-copyright">
+              <div class="container center">
+                <p class="copy">© 2014 Copyright All rights reserved | created by <span>Andral Orelus</span></p> 
+              </div>
+            </div>
+      </div>
+      
+    </footer>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/main.js"></script>
