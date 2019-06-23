@@ -457,6 +457,7 @@ img {
 }
 
 #contact .btn-clr {
+	font-size: 1.5rem;
 	background-color: rgb(68, 67, 67);
 	text-transform: capitalize;
 }
@@ -477,7 +478,7 @@ img {
 }
 
 #main-footer .footer-text-para {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	margin-bottom: 1.3em;
 }
 
@@ -485,10 +486,11 @@ img {
 	font-weight: bolder;
 	color: rgba(54, 53, 53, 0.705);
 	margin: 1.5em auto;
+	font-size: 2rem;
 }
 
 #main-footer .footer-link {
-	font-size: 1.35rem;
+	font-size: 1.5rem;
 	margin-bottom: 0.5em;
 }
 #main-footer .footer-link a {
