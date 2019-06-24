@@ -40,8 +40,13 @@ img {
 	color: #fff;
 	position: relative;
 }
+
+.main-header .ocupation {
+	color: rgba(236, 222, 222, 0.678);
+}
+
 .main-header a {
-	font-size: 1.4rem;
+	font-size: 1.1rem;
 }
 
 .main-header .showcase {
@@ -68,9 +73,11 @@ img {
 	color: rgb(255, 255, 255);
 	border-radius: 50%;
 }
+
 .btn {
 	border-radius: 30px;
 }
+
 #service {
 	height: 100%;
 	background-color: #f2f2f2;
@@ -80,6 +87,7 @@ img {
 #about {
 	padding-top: 4em;
 }
+
 .content-service {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -92,7 +100,7 @@ img {
 .content-service .wrapper {
 	display: flex;
 	align-items: center;
-	padding: 15px;
+	padding: 4em 1.5em;
 	background-color: #ffffff;
 	-webkit-box-shadow: 14px 13px 16px -9px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 14px 13px 16px -9px rgba(0, 0, 0, 0.2);
@@ -101,12 +109,13 @@ img {
 }
 
 #service .service-info h3 {
-	font-size: 1.9rem;
-	margin: 0.80rem 0;
+	font-size: 2rem;
+	margin: 0.7em 0;
 }
 
 #service .service-info p {
-	font-size: 1.4rem;
+	line-height: 1.8;
+	font-size: 1.1rem;
 }
 
 #about,
@@ -114,9 +123,11 @@ img {
 #client {
 	height: 100%;
 }
+
 #about {
 	padding-top: 10%;
 }
+
 #about .about-image {
 	/* border: solid rgb(9, 233, 110) 2px; */
 	width: 300px;
@@ -140,6 +151,7 @@ img {
 	/* border: solid red 2px; */
 	padding-left: 1.5em;
 }
+
 #about .about-info h4,
 #about .skills h4 {
 	font-size: 2.5rem;
@@ -147,12 +159,14 @@ img {
 
 #about .about-info p,
 #about .skills .progress-title {
-	font-size: 1.4rem;
+	font-size: 1.1rem;
+	line-height: 2;
 }
 
 #about .top-line {
 	border-top: solid green 3px;
 }
+
 #about .bt {
 	font-weight: bolder;
 }
@@ -162,10 +176,12 @@ img {
 }
 
 /* Progress Bar */
+
 .progress-bar {
 	margin: 0 0 10px;
 	overflow: hidden;
-	padding-right: 24px; /* Separate bars from container */
+	padding-right: 24px;
+	/* Separate bars from container */
 }
 
 .progress-title-holder {
@@ -238,10 +254,12 @@ img {
 .progress-content {
 	height: 21px;
 	background-color: rgba(45, 146, 90, 0.918);
-	width: 0%; /* Initial value */
+	width: 0%;
+	/* Initial value */
 }
 
 /* Portfolio style */
+
 #portfolio {
 	margin-bottom: 15%;
 	margin-top: 7%;
@@ -265,48 +283,58 @@ img {
 	object-fit: cover;
 	border-radius: 10px;
 }
+
+/* overlay portfolio */
+
 #portfolio .gallery__item:nth-child(1) {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 6;
 }
+
 #portfolio .gallery__item:nth-child(2) {
 	grid-column-start: 3;
 	grid-column-end: 5;
 	grid-row-start: 1;
 	grid-row-end: 5;
 }
+
 #portfolio .gallery__item:nth-child(3) {
 	grid-column-start: 5;
 	grid-column-end: 7;
 	grid-row-start: 1;
 	grid-row-end: 6;
 }
+
 #portfolio .gallery__item:nth-child(4) {
 	grid-column-start: 9;
 	grid-column-end: 7;
 	grid-row-start: 1;
 	grid-row-end: 5;
 }
+
 #portfolio .gallery__item:nth-child(5) {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 6;
 	grid-row-end: 9;
 }
+
 #portfolio .gallery__item:nth-child(6) {
 	grid-column-start: 3;
 	grid-column-end: 5;
 	grid-row-start: 5;
 	grid-row-end: 9;
 }
+
 #portfolio .gallery__item:nth-child(7) {
 	grid-column-start: 5;
 	grid-column-end: 7;
 	grid-row-start: 6;
 	grid-row-end: 9;
 }
+
 #portfolio .gallery__item:nth-child(8) {
 	grid-column-start: 7;
 	grid-column-end: 9;
@@ -315,6 +343,7 @@ img {
 }
 
 /* Clients style  */
+
 .slider-wrap {
 	position: relative;
 	width: 100%;
@@ -324,6 +353,7 @@ img {
 	background-color: rgb(89, 133, 92);
 	color: #fff;
 }
+
 #client {
 	margin-top: 100px;
 }
@@ -332,8 +362,13 @@ img {
 	margin-bottom: 2.5em;
 	font-size: 2.2rem;
 }
+
+#client blockquote {
+	font-size: 1.3rem;
+}
+
 #client .client-name {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	font-weight: 600;
 	color: #b4a7a7;
 }
@@ -368,13 +403,16 @@ img {
 }
 
 /* Blogs section style */
+
 #blogs {
 	margin: 7% auto;
 }
+
 #blogs .bp {
 	margin-bottom: 2em;
 	font-size: 2.8rem;
 }
+
 .blog-wrapper {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -382,17 +420,20 @@ img {
 }
 
 .blog-info .blog-title {
-	font-size: 2.2rem;
+	font-size: 2rem;
 }
+
 .blog-info h4 {
 	font-size: 1.3rem;
 	color: rgb(136, 136, 136);
 }
+
 .blog-info .blog-text {
-	font-size: 1.4rem;
-	line-height: 1.5;
+	font-size: 1.1rem;
+	line-height: 1.8;
 	margin-bottom: 2em;
 }
+
 .blog-info {
 	padding: 0 1.5em 3em 1.5em;
 }
@@ -402,6 +443,7 @@ img {
 	height: auto;
 	border: #535353 solid 1px;
 }
+
 .blog-image {
 	height: 25vh;
 }
@@ -415,10 +457,12 @@ img {
 
 .blog-btn {
 	font-weight: 600;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	border: seagreen solid 1px;
 }
+
 /* contact style */
+
 #contact {
 	background-color: rgb(89, 133, 92);
 	padding: 5% 2%;
@@ -426,12 +470,12 @@ img {
 
 #contact .title {
 	margin-bottom: 1.5em;
-	font-size: 2.9rem;
+	font-size: 2.3rem;
 }
 
 #contact .input-field label {
 	color: rgb(184, 179, 179);
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 }
 
 #contact .input-field input[type=text] {
@@ -439,6 +483,7 @@ img {
 }
 
 /* label underline focus color */
+
 #contact .input-field input[type=text]:focus,
 #message:focus {
 	border-bottom: 1px solid rgb(57, 73, 97);
@@ -457,12 +502,13 @@ img {
 }
 
 #contact .btn-clr {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	background-color: rgb(68, 67, 67);
 	text-transform: capitalize;
 }
 
 /* Main footer style */
+
 #main-footer {
 	background-color: ;
 }
@@ -478,30 +524,33 @@ img {
 }
 
 #main-footer .footer-text-para {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	margin-bottom: 1.3em;
+	line-height: 1.8;
 }
 
 #main-footer .link-header {
 	font-weight: bolder;
 	color: rgba(54, 53, 53, 0.705);
 	margin: 1.5em auto;
-	font-size: 2rem;
+	font-size: 1.7rem;
 }
 
 #main-footer .logo-collection {
 	display: flex;
 }
+
 #main-footer .logo-collection i {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	margin-right: 0.5em;
 	color: rgb(5, 94, 52);
 }
 
 #main-footer .footer-link {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	margin-bottom: 0.5em;
 }
+
 #main-footer .footer-link a {
 	color: rgba(70, 70, 70, 0.836);
 }
@@ -511,7 +560,7 @@ img {
 }
 
 #main-footer .footer-copyright .copy {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	margin-bottom: 15%;
 	color: rgba(70, 70, 70, 0.836);
 }
